@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://moksa.ai/ homepage compliance statements
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: mokSa AI homepage states "SOC 2 Type 2 certification"
+- id: gdpr
+  conforms: true
+  evidence: mokSa AI homepage states the platform is "GDPR compliant" for data handling
+- id: oauth2
+  conforms: false
+  evidence: No public API or OAuth documentation found
+- id: rfc9457
+  conforms: false
+  evidence: No public API surface found
+notes: mokSa AI publishes no public API, OpenAPI, or developer documentation; only
+  organizational compliance claims (SOC 2 Type 2, GDPR) are asserted on the homepage.

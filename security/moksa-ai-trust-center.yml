@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: searched
+source: https://moksa.ai/ homepage compliance statements
+name: mokSa AI Trust & Compliance
+trust_center_url: null
+certifications:
+- name: SOC 2 Type 2
+  status: certified
+  evidence: Stated on moksa.ai homepage ("SOC 2 Type 2 certification")
+- name: GDPR
+  status: compliant
+  evidence: Stated on moksa.ai homepage ("GDPR compliant" for data handling security)
+notes: No dedicated trust center or compliance portal page was found; certifications
+  are asserted on the company homepage. No security.txt, bug bounty, or vulnerability
+  disclosure program was found via probe.

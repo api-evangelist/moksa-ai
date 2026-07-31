@@ -1,7 +1,27 @@
 aid: moksa-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moksa-ai.png
 name: mokSa AI
-description: mokSa AI is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: mokSa AI (moksa.ai) is an AI-powered surveillance and video-analytics
+  platform that delivers real-time threat detection, automated alerts, and smarter
+  operational decision-making from a single intelligent system. The platform integrates
+  with existing camera and monitoring infrastructure and applies real-time training
+  and analysis to detect security and safety threats across retail spaces, hospitality
+  and lodging, educational institutions, fuel and service stations, and food-handling
+  environments. mokSa AI states SOC 2 Type 2 certification and GDPR compliance for
+  its data handling. The company was surfaced as a Techstars portfolio company and
+  added to the API Evangelist network. No public API, developer documentation, or
+  SDK surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/moksa-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- AI
+- Surveillance
+- Video Analytics
+- Security
+- Computer Vision
+- Threat Detection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://moksa.ai/
+- type: About
+  url: https://moksa.ai/about
+- type: Features
+  url: https://moksa.ai/features
+- type: CaseStudies
+  url: https://moksa.ai/casestudies
+- type: Contact
+  url: https://moksa.ai/contact
+- type: DomainSecurity
+  url: security/moksa-ai-domain-security.yml
+- type: TrustCenter
+  url: security/moksa-ai-trust-center.yml
+- type: Compliance
+  url: security/moksa-ai-trust-center.yml
+- type: Conformance
+  url: conformance/moksa-ai-conformance.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
